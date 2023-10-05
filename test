@@ -1,12 +1,1 @@
-Automatic organization of scholarly literature
-is a challenging but essential task. In particular, assigning key concepts to scientific publications allows researchers, policymakers, and
-the general public to search for and discover
-relevant research. But any meaningful organization of scientific publications must evolve with
-new research, requiring up-to-date and scalable
-text classification models. Additionally, scientific research publications benefit from multilabel classification, particularly with more finegrained sub-domains. Prior work has focused
-on classifying scientific publications from one
-research area (e.g., computer science), referencing static concept descriptions, and implementing English-only classification models. We
-propose a multi-label classification model that
-can be implemented in non-English languages,
-across all scientific literature, with dynamic
-concepts.
+Many recent proposals for anonymous communication omit from their security analyses a consideration of the effects of time on important system components. In practice, many components of anonymity systems, such as the client location and network structure, exhibit changes and patterns over time. In this paper, we focus on the effect of such temporal dynamics on the security of anonymity networks. We present Tempest, a suite of novel attacks based on (1) client mobility, (2) usage patterns, and (3) changes in the underlying network routing. Using experimental analysis on real-world datasets, we demonstrate that these temporal attacks degrade user privacy across a wide range of anonymity networks, including deployed systems such as Tor; path-selection protocols for Tor such as DeNASA, TAPS, and Counter-RAPTOR; and network-layer anonymity protocols for Internet routing such as Dovetail and HORNET. The degradation is in some cases surprisingly severe. For example, a single host failure or network route change could quickly and with high certainty identify the client's ISP to a malicious host or ISP. The adversary behind each attack is relatively weak - generally passive and in control of one network location or a small number of hosts. Our findings suggest that designers of anonymity systems should rigorously consider the impact of temporal dynamics when analyzing anonymity.
