@@ -1,1 +1,12 @@
-Word embeddings learn implicit biases from linguistic regularities captured by word co-occurrence statistics. By extending methods that quantify human-like biases in word embeddings, we introduce ValNorm, a novel intrinsic evaluation task and method to quantify the valence dimension of affect in human-rated word sets from social psychology. We apply ValNorm on static word embeddings from seven languages (Chinese, English, German, Polish, Portuguese, Spanish, and Turkish) and from historical English text spanning 200 years. ValNorm achieves consistently high accuracy in quantifying the valence of non-discriminatory, non-social group word sets. Specifically, ValNorm achieves a Pearson correlation of r=0.88 for human judgment scores of valence for 399 words collected to establish pleasantness norms in English. In contrast, we measure gender stereotypes using the same set of word embeddings and find that social biases vary across languages. Our results indicate that valence associations of non-discriminatory, non-social group words represent widely-shared associations, in seven languages and over 200 years.
+Automatic organization of scholarly literature
+is a challenging but essential task. In particular, assigning key concepts to scientific publications allows researchers, policymakers, and
+the general public to search for and discover
+relevant research. But any meaningful organization of scientific publications must evolve with
+new research, requiring up-to-date and scalable
+text classification models. Additionally, scientific research publications benefit from multilabel classification, particularly with more finegrained sub-domains. Prior work has focused
+on classifying scientific publications from one
+research area (e.g., computer science), referencing static concept descriptions, and implementing English-only classification models. We
+propose a multi-label classification model that
+can be implemented in non-English languages,
+across all scientific literature, with dynamic
+concepts.
